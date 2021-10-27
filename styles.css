@@ -31,7 +31,6 @@ p {
     font-size: 16px;
 }
 
-
 img#image1{
     text-align: right;
     width: 40%;
@@ -46,10 +45,10 @@ img#image2 {
 
 
 img#image3 {
-    width:50%;
+    width:100%;
 }
 img#image4 {
-    width:50%;
+    width:100%;
 }
 
 img#image5 {
@@ -59,7 +58,17 @@ img#image5 {
 
 img#image6 {
     width:60%;
-    align-content: center;
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.image figcaption {
+    text-align: center;
+}
+
+a#windows {
+    text-align: center;
 }
 
 img#map {
@@ -70,9 +79,12 @@ img#map {
 }
 
 
-
 .caption {
     padding-top: 0;
+}
+
+h6 {
+    color: darkgrey;
 }
 
 .side {
@@ -91,22 +103,24 @@ a {
     color: blue;
 }
 
+figcaption {
+    color: darkgrey;
+}
+
 .link {
     padding: 20px;
     font-style: italic;
-}
-
-.pquote {
-float: left;
- width: 200px;
- color: #030;
- font-size: 40px;
- line-height: 0.9;
- font-style: italic;
- padding: 13px;
- background-color: lightgrey;
+    text-align: center;
 }
 
 blockquote {
-    margin: 0;
+  background: #f9f9f9;
+  border-left: 10px solid #ccc;
+  margin: 1.5em 10px;
+  padding: 0.5em 10px;
 }
+  blockquote h4 {
+       display: inline;
+       font-size: 20px;
+       color: darkblue;
+  }
