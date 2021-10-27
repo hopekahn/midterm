@@ -1,19 +1,112 @@
-h1 {
+/*font-family: 'Arvo', serif;
+font-family: 'Merriweather Sans', sans-serif;*/
+
+body{
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+h1{
     font-family: "Arvo";
-    font-size: 30px;
+    font-size: 35px;
+    text-align: center;
 }
 
 h2 {
     font-family: "Arvo";
     font-size: 20px;
+    text-align: center;
 }
 
 h3 {
     font-family: "Arvo";
-    font-size: 10px;
+    font-size: 15px;
+    text-align: center;
+    font-weight: lighter;
+    color: grey;
 }
 
 p {
     font-family: 'Merriweather Sans', Helvetica, Arial, sans-serif;
     font-size: 16px;
+}
+
+
+img#image1{
+    text-align: right;
+    width: 40%;
+    float: right;
+    margin: 0 0 0 15px;
+
+}
+
+img#image2 {
+    width: 50%;
+}
+
+
+img#image3 {
+    width:50%;
+}
+img#image4 {
+    width:50%;
+}
+
+img#image5 {
+    width: 40%;
+    padding: 50px;
+}
+
+img#image6 {
+    width:60%;
+    align-content: center;
+}
+
+img#map {
+    width:20%;
+    text-align: right;
+    float: right;
+    margin: 0 0 0 15px;
+}
+
+
+
+.caption {
+    padding-top: 0;
+}
+
+.side {
+    display:flex;
+    margin-left: 0;
+    margin-right: 0;
+}
+
+.side h6 {
+    font-size: 15px;
+    display: flex;
+    flex-direction: row;
+}
+
+a {
+    color: blue;
+}
+
+.link {
+    padding: 20px;
+    font-style: italic;
+}
+
+.pquote {
+float: left;
+ width: 200px;
+ color: #030;
+ font-size: 40px;
+ line-height: 0.9;
+ font-style: italic;
+ padding: 13px;
+ background-color: lightgrey;
+}
+
+blockquote {
+    margin: 0;
 }
