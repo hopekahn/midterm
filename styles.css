@@ -63,7 +63,7 @@ img#image6 {
   margin-right: auto;
 }
 
-.image figcaption {
+figcaption#windows {
     text-align: center;
 }
 
@@ -118,9 +118,8 @@ blockquote {
   border-left: 10px solid #ccc;
   margin: 1.5em 10px;
   padding: 0.5em 10px;
+  display: inline;
+  font-size: 20px;
+  color: darkblue;
+  font-family: "Arvo";
 }
-  blockquote h4 {
-       display: inline;
-       font-size: 20px;
-       color: darkblue;
-  }
